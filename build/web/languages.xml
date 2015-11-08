@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+    <translation id="recital">
+        <eng>Recital Pianos</eng>
+        <rus>Реситаль Фортепиано</rus>
+        <heb>רסיטל פסנתרים</heb>
+    </translation>
+    <translation id="catalog">
+        <eng>Catalog</eng>
+        <rus>Каталог</rus>
+        <heb>ראשי</heb>
+    </translation>
+    <translation id="catalog">
+        <eng>Catalog</eng>
+        <rus>Каталог</rus>
+        <heb>קטלוג</heb>
+    </translation>
+    <translation id="services">
+        <eng>Services</eng>
+        <rus>Обслуживание</rus>
+        <heb>שירותים</heb>
+    </translation>
+    <translation id="board">
+        <eng>Board</eng>
+        <rus>Рекламный щит</rus>
+        <heb>לוח מודעות</heb>
+    </translation>
+    <translation id="contact">
+        <eng>Contact us</eng>
+        <rus>Связаться с нами</rus>
+        <heb>צור קשר</heb>
+    </translation>
+    <translation id="upright">
+        <eng>Upright Pianos</eng>
+        <rus>@@@</rus>
+        <heb>פסנתרים עומדים</heb>
+    </translation>
+    <translation id="grand">
+        <eng>Grand Pianos</eng>
+        <rus>@@@@@</rus>
+        <heb>פסנתרי כנף</heb>
+    </translation>
+    <translation id="benches">
+        <eng>Benches</eng>
+        <rus>@@@@@</rus>
+        <heb>ספסלים לפסנתר</heb>
+    </translation>
+    <translation id="board">
+        <eng>Board</eng>
+        <rus>@@@@@</rus>
+        <heb>לוח מודעות</heb>
+    </translation>
+    <translation id="login">
+        <eng>Login</eng>
+        <rus>@@@@@</rus>
+        <heb>התחברות</heb>
+    </translation>
+    <translation id="new-user">
+        <eng>New user</eng>
+        <rus>@@@@@</rus>
+        <heb>משתמש חדש</heb>
+    </translation>
+    <translation id="existing-user">
+        <eng>Existing user</eng>
+        <rus>@@@@@</rus>
+        <heb>משתמש קיים</heb>
+    </translation>
+    <translation id="my-posts">
+        <eng>My Posts</eng>
+        <rus>@@@@@</rus>
+        <heb>המודעות שלי</heb>
+    </translation>
+    <translation id="posts">
+        <eng>Posts</eng>
+        <rus>@@@@@</rus>
+        <heb>לוח מודעות</heb>
+    </translation>
+    <translation id="logout">
+        <eng>Logout</eng>
+        <rus>@@@@@</rus>
+        <heb>התנתקות</heb>
+    </translation>
+    <translation id="services-text">
+        <eng>Recital Pianos provides a wide range of services of highest professional standard for the client:
+            *Testing the piano for insurance or damage purposes
+            * Giving price Evaluation
+            * Enabling piano moving by experts
+            * Special work – for example: addition of locks, adding transhipment system
+            * Regulation and voicing of the mechanism
+            * Piano Tuning
+        </eng>
+        <rus>"Реситаль Фортепиано" обеспечивает высококвалифицированное обслуживание покупателей:
+            - экспертиза пианино и роялей в целях их страхования от случаев повреждения;
+            - оценка стоимости инструментов;
+            - перевозка инструментов с привлечением срециализированных фирм;
+            - установка замков и средств для передвижения пианино и роялей внутри помещения;
+            - регулировка всех видов механизмов;
+            - настройка.
+        </rus>
+        <heb>רסיטל פסנתרים מספקת מגוון רחב של שירותים ברמה המקצועית ביותר לשירות הלקוח:
+            	בדיקת פסנתר לצורך ביטוח ונזקים
+            	הערכת מחיר לפסנתר
+            	הובלת פסנתרים ע"י מובילים המתמחים בכך
+            	עבודות מיוחדות כגון תוספת מנעולים, תוספת מערכת שינוע
+            	כיוונון המנגנון
+            	כיוון פסנתר
+        </heb>
+    </translation>
+    <translation id="restoration">
+        <eng>Piano restoration</eng>
+        <rus>пианино реставрация</rus>
+        <heb>חידוש פסנתרים</heb>
+    </translation>
+    <translation id="restoration-text">
+        <eng>We renovate pianos in our workshop according to the highest international standards. 
+            In our workshop we can carry out any of the varied aspects needed in the art of piano restoration. 
+            Pianos can be renovated according to the client’s wishes. Among the pianos which have gone through a 
+            restoration process can be found rare and beautiful models from the 19th century, of famous brand names.
+            
+            Some of the various types of renovation:
+
+            Exterior work:
+            *Completion of woodwork and carpentry.
+            *Redesign of the piano
+            *Complete painting and touch-up painting in any color, according to the client’s request.
+
+            Interior work:
+            *Full restoration and renovation of the piano's mechanism
+            *Mending the soundboard
+            *Restoration or replacement of the keyboard
+            *Replacement of the tuning pins
+            *Mending the pinblock.
+        </eng>
+        <rus> На фирме "Реситаль Фортепиано" производятся следующие виды работ:
+            - полная реставрация корпусов пианино и роялей (старинных и современных) с восстановлением отсутствующих элементов корпуса;
+            - частичная и полная отделка корпусов лако-красочным покрытием на срециализированном участке;
+            - ремонт механизмов с заменой молотков, демпферов и т.д.;
+            - ремонт дек;
+            - ремонт вирбельбанка с заменой вирбелей;
+            - изготовление и замена струн;
+            - ремонт клавиатуры с заменой суконной гарнировки.
+        </rus>
+        <heb>אנחנו משפצים פסנתרים בבית המלאכה שלנו לפי סטנדרט בינלאומי לרמת הגימור הגבוהה ביותר. בבית המלאכה ביכולתנו לבצע את כל מיגוון העבודות הנדרשות  באומנות שיפוץ הפסנתרים. ניתן לשפץ פסנתרים לפי משאלות  הלקוח. בין הפסנתרים המחודשים ניתן למוצא דוגמאות יפות ונדירות של פסנתרים מהמאה ה-19 שיוצרו ע"י מותגים ידועי שם.
+            בין מגוון עבודות השיפוץ:
+            עבודות חוץ:
+            	השלמות עץ ועבודות נגרות
+            	עיצוב מחדש של הפסנתר
+            	צביעה כוללת, ותיקוני צבע בפרט, בכל צבע לבקשת הלקוח 
+            עבודות פנים:
+            	חידוש ושיפוץ מלא של המנגנון
+            	תיקון לוח תהודה
+            	שיפוץ והחלפת מקלדת
+            	החלפת ברגי כיוון
+            	תיקון פינבלוק
+        </heb>
+    </translation>
+    <translation id="recent-posts">
+        <eng>Recent posts</eng>
+        <rus>@@@@ @@@@@</rus>
+        <heb>מודעות אחרונות</heb>
+    </translation>
+    <translation id="about">
+        <eng>About</eng>
+        <rus>О нас</rus>
+        <heb>עלינו</heb>
+    </translation>
+    <translation id="about-text">
+        <eng>Recital Pianos and Musical Instruments is the largest and most veteran company which deals with piano restoration. You will find all the services you need for the piano, under one roof – purchasing, tuning, regulation and voicing, restoration, maintenance, rental, thorough testing, price evaluation and more.
+
+            We believe the piano is a form of art and with this in mind, when you purchase a piano from us you are buying a musical instrument that will accompany you throughout your life, your children’s life and even your grandchildren’s.
+
+            A piano is a very personal instrument and therefore, you will receive the most individual attention during the whole process of purchase until you find the piano with the touch that suits you and the sound that is most pleasing to your ear.
+
+            In Recital Pianos you will find a wide choice of high-standard pianos: from grand pianos for concert-halls to small grand pianos which are suitable for apartments to upright pianos whether tall or low; new pianos straight from the manufacturer's factory to older pianos which have undergone a restoration process in our workshop, to antique hand-made pianos from the beginning of the previous century, which have undergone a full restoration and renovation; pianos from the best manufacturers throughout the world from - amongst others – Germany, Japan, Czech Republic, Austria, United States of America, South Korea, Russia, China and others.
+
+            Recital Pianos Company Ltd., is run with the highest professional standards by Shimon Auerbuch , a pianist with M.A. of music and over 30 years experience in piano engineering and restoration.
+            
+            In addition, we are also specialize in the art of renovation and restoration of pianos and can carry out any request our client may have. You can discover more about the subject under the heading “Restoration”
+
+        </eng>
+        <rus> 
+            Фирма "Реситаль Фортепиано" – одна из крупных фирм Израиля, которая специализируется по продаже и ремонту пианино и роялей.
+            У нас Вы найдете все виды обслуживания "под одной крышей": продажа, настройка, регулировка, ремонт, гарантийное обслуживание, прокат, экспертиза, оценка стоимости и т.д.
+            Приобретая у нас пианино или рояль, Вы приобщаете всех членов семьи к музыке на всю жизнь.
+            У нас Вы найдете инструменты в соответствии с Вашими требованиями по размерам, внешнему виду, качеству звучания и удобству при игре на клавишном механизме.
+            В "Реситаль Фортепиано" есть богатый выбор инструментов высокого класса:
+            - рояли ведущих фирм разных моделей для концертных залов,
+            - рояли и  пианино для домашнего музицирования, как новые от ведущих фирм-изготовителей, так и восстановленные высококлассными специалистами фирмы "Реситаль Фортепиано".
+  
+            Реставрация старинных пианино и роялей, а также восстановление бывших в эксплуатации инструментов, производится в специализированной мастерской с применением новых технологий, высококачественных деталей и материалов, получаемых из Германии.
+            В демонстрационном зале постоянно находятся 120 – 150 пианино и роялей производства Германии, Чехии, Японии, Австрии, Америки, Китая, России и т.д.
+            Фирмой "Реситаль Фортепиано" со дня ее основания успешно руководит Шимон Авербух – пианист с высшим музыкальным образованием и специалист с 30и летним стажем работ по реставрации, ремонту и настройке пианино и роялей.
+        </rus>
+        <heb>
+            @@@@@@@@@@@
+        </heb>
+    </translation>
+    
+       
+</translations>

@@ -1,0 +1,45 @@
+.header {
+    min-width:400px;
+    width: 100%;
+}
+
+.top {
+    min-width:400px;
+    width: 100%; 
+}
+
+.maxWidth {
+    width: auto;
+}
+
+@media screen and (max-width: 625px){
+    .plant {
+        visibility: hidden;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menubar-container {
+        height: 100%;
+    }
+
+    .header {
+        /*height: 2.2em;*/
+    }
+
+    #hamb {
+        display: initial;
+    }
+
+    .menubar {
+        display: initial;
+        height: 1.5em;
+    }
+
+    #logo-text {
+        font-size: 1.8em;
+    }
+}
+

@@ -1,0 +1,250 @@
+<!DOCTYPE html>    
+<html lang="en" dir="ltr">
+
+    <head>
+        <title>Recital Pianos - Admin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/javascript.js"></script>      
+        <script src="js/javascript_admin.js"></script>  
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="bootstrap/bootstrap-3.3.2-dist/css/bootstrap-theme.css" type="text/css"/>
+        <link rel="stylesheet" href="bootstrap/bootstrap-3.3.2-dist/css/bootstrap-theme.css" type="text/css">
+        <script src="bootstrap/bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="css/main.css">
+
+        <!-- Browser tab icon IE-->
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico" >
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+        <!-- Browser tab icon FF-->
+        <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+        <link rel="stylesheet" href="bootstrap/bootstrap-3.3.2-dist/css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap/bootstrap-3.3.2-dist/css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="bootstrap/bootstrap-3.3.2-dist/css/bootstrap-theme.min.css" type="text/css">
+
+    </head>
+
+    <body>
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">Recital Pianos</a>
+                <button class="navbar-toggle btn-circle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="glyphicon glyphicon-menu-hamburger white-color" aria-hidden="true"></span>
+                </button>
+                <div class="collapse navbar-collapse navHeaderCollapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#login" data-lang="login">Login</a></li>
+                        <li><a href="#logout" data-lang="logout">Logout</a></li>
+                        <li><a href="#add" data-lang="add">Add To Catalog</a></li>
+                        <li><a href="#manage" data-lang="manage">Manage Catalog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="pages">
+            <!-- =========== Home =========== -->
+            <div class="container" data-page="#home">
+                <h2>Welcome, please choose an action</h2>
+            </div>
+            <!-- =========== Login =========== -->
+            <div data-page="#login">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h2 data-lang="login">Login</h2>
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <legend data-lang="existing-user"></legend>
+                                    <!-- Text input-->
+                                    <div class="form-group">
+                                        <label class="col-md-4 control-label" for="login-email">Username</label>
+                                        <div class="col-md-6">
+                                            <input id="login-email" name="textinput" type="text" placeholder="Email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!-- Password input-->
+                                    <div class="form-group">
+                                        <label class="col-md-4 control-label" for="login-password">Password</label>
+                                        <div class="col-md-6">
+                                            <input id="login-password" type="password" placeholder="Password" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!-- Button -->
+                                    <div class="form-group">
+                                        <label class="col-md-4 control-label" for="login-button"></label>
+                                        <div class="col-md-4">
+                                            <button id="login-button" class="btn btn-lg btn-warning">Login</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- =========== Catalog =========== -->
+            <div data-page="#manage" class="container">
+                <h2>Manage Catalog</h2>
+                <h3>Upright Pianos</h3>
+                <table id="admin-upright-container" class="table">
+                    <thead>
+                        <tr>
+                            <th>Manufacturer</th>
+                            <th>Model</th>
+                            <th>Country</th>
+                            <th>Year</th>
+                            <th>Height</th>
+                            <th>Color</th>
+                            <th>Finish</th>
+                            <th>Promotion</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <h3>Grand Pianos</h3>
+                <table id="admin-grand-container" class="table">
+                    <thead>
+                        <tr>
+                            <th>Manufacturer</th>
+                            <th>Model</th>
+                            <th>Country</th>
+                            <th>Year</th>
+                            <th>Length</th>
+                            <th>Color</th>
+                            <th>Finish</th>
+                            <th>Promotion</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                <h3>Benches</h3>
+                <table id="admin-benches-container" class="table">
+                    <thead>
+                        <tr>
+                            <th>Model</th>
+                            <th>Color</th>
+                            <th>Fabric</th>
+                            <th>Adjustable</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <!-- =========== add items =========== -->
+            <div data-page="#add" class="container">
+                <h2>Add To Catalog</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="container col-sm-5">
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <legend>Add Piano</legend>
+                                    <div  class="form-group">
+                                        <div id="create-piano-isupright" class="btn-group" data-toggle="buttons">
+                                            <label class="btn btn-default active">
+                                                <input type="radio" name="true" id="create-piano-upright" checked>Upright piano
+                                            </label>
+                                            <label class="btn btn-default">
+                                                <input type="radio" name="false" id="create-piano-grand">Grand piano
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- model input-->
+                                    <div class="form-group">
+                                        <input id="create-piano-model" type="text" placeholder="Model" class="form-control input-md">
+                                    </div>
+                                    <!-- manufacturer input-->
+                                    <div class="form-group">
+                                        <input id="create-piano-manufacturer" type="text" placeholder="Manufacturer" class="form-control input-md">
+                                    </div>
+                                    <!-- country input-->
+                                    <div class="form-group">
+                                        <input id="create-piano-country" type="text" placeholder="Country" class="form-control input-md">
+                                    </div>
+                                    <div class="form-group">
+                                        <div id="create-piano-isnew" class="btn-group" data-toggle="buttons">
+                                            <label class="btn btn-default active">
+                                                <input type="radio" name="true" id="create-piano-new" checked>  New  
+                                            </label>
+                                            <label class="btn btn-default">
+                                                <input type="radio" name="false" id="create-piano-renew"> Renewed 
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- size input-->
+                                    <div class="form-group">
+                                        <input id="create-piano-size" type="text" placeholder="Size" class="form-control input-md">
+                                    </div>
+                                    <!-- country color-->
+                                    <div class="form-group">
+                                        <input id="create-piano-color" type="text" placeholder="Color" class="form-control input-md">
+                                    </div>
+                                    <!-- country finish-->
+                                    <div class="form-group">
+                                        <input id="create-piano-finish" type="text" placeholder="Finish" class="form-control input-md">
+                                    </div>
+                                    <!-- country year-->
+                                    <div class="form-group">
+                                        <input id="create-piano-year" type="text" placeholder="Year" class="form-control input-md">
+                                    </div>
+                                    <!-- Button -->
+                                    <div class="form-group">
+                                        <label class="col-md-4 control-label" for="create-piano-button"></label>
+                                        <button id="create-piano-button" name="singlebutton" class="btn btn-lg btn-warning">Create Piano</button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="container col-sm-2">  
+                        </div>
+                        <div class="container col-sm-5">   
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <legend>Add Bench</legend>
+                                    <!-- model input-->
+                                    <div class="form-group">
+                                        <input id="create-bench-model" type="text" placeholder="Model" class="form-control input-md">
+                                    </div>
+                                    <div class="form-group">
+                                        <div id="create-bench-isadjustable" class="btn-group" data-toggle="buttons">
+                                            <label class="btn btn-default active">
+                                                <input type="radio" name="true" id="create-bench-adjustable" checked>Adjustable
+                                            </label>
+                                            <label class="btn btn-default">
+                                                <input type="radio" name="false" id="create-bench-not-djustable">Not Adjustable
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- country color-->
+                                    <div class="form-group">
+                                        <input id="create-bench-color" type="text" placeholder="Color" class="form-control input-md">
+                                    </div>
+                                    <!-- country fabric-->
+                                    <div class="form-group">
+                                        <input id="create-bench-fabric" type="text" placeholder="Fabric" class="form-control input-md">
+                                    </div>
+                                    <!-- Button -->
+                                    <div class="form-group">
+                                        <label class="col-md-4 control-label" for="create-bench-button"></label>
+                                        <button id="create-bench-button" name="singlebutton" class="btn btn-lg btn-warning">Create Bench</button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
